@@ -1,0 +1,27 @@
+*{margin:0; padding:0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+body{background:#000;}
+#login{position:absolute; top:50%; left:50%; height:320px; width:300px; margin-top:-160px; margin-left:-150px;}
+#login .login-logo{
+	background:url(../images/login-logo.png) 20px 2px no-repeat;
+	width:300px;
+}
+.login-logo .band{
+	border-bottom:5px #e11f26 solid;
+	position:absolute;
+	height:15px;
+	width:100%;
+	z-index:-9999;
+	
+}
+#login .login-logo h2{color:#fff; font-style:italic; padding-left:70px; text-shadow:1px 1px 0px #e11f26;}
+#login .ms{width:260px;}
+#login .btn{margin:0 0 8px 0; text-transform:uppercase;}
+#login form{float:left; width:300px;}
+#login form label{display:block; margin-bottom:10px;}
+#login form label span{display:block; font:18px Tahoma, Geneva, sans-serif; color:#FFF; text-shadow:#000 1px 1px 1px; margin-bottom:2px;}
+#login form label input{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:6px; border:1px solid #FFF; background:#FFF; width:286px;}
+#login form .remember{width:300px; margin:5px;}
+#login form .remember input{float:left; margin:1px 5px 0 0; cursor:pointer;}
+#login form .remember{font:bold 12px Tahoma, Geneva, sans-serif; color:#fff;}
+.link{margin:5px; font:bold 12px Tahoma, Geneva, sans-serif; float:left; color:#FFD9D9; text-decoration:none;}
+#login form .link:hover{text-decoration:underline;}
